@@ -1,0 +1,85 @@
+.folder {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.1s all ease-in;
+}
+
+.folder:hover {
+    background-color: #363A45;
+}
+
+.folderDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconName {
+    display: flex;
+    align-items: center;
+}
+
+.folderLabel,
+.fileLabel {
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.subFolders {
+    margin-left: 20px;
+}
+
+.file {
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.inputContainer {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputContainer input {
+    outline: none;
+    background: var(--input-background);
+    border: 1px solid var(--input-border);
+    padding: 5px;
+    border-radius: 5px;
+    caret-color: var(--text-grey);
+    color: var(--text-grey);
+    font-weight: 400;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.popupMenu {
+    background-color: rgb(33, 35, 42, 0.8);
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    z-index: 100;
+    border: 1px solid #363A45;
+    backdrop-filter: blur(10px);
+    width: 80%;
+}
+
+.popupMenuItems {}
+
+.popupMenuItem {
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.1s all ease-in;
+}
+
+.popupMenuItem:hover {
+    background-color: #0D111D;
+}
